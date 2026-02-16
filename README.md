@@ -49,13 +49,25 @@ No Linux/macOS:
 python3 app.py
 ```
 
-### O Terminal Exibirá a Seguinte Mensagem:
+### O Terminal Exibirá uma Mensagem Semelhante a:
 
 ```
 Running on http://127.0.0.1:5000/
 ```
 
-Copie esse endereço e digite no seu navegador.
+### Abra seu Navegador e Digite:
+
+```
+http://127.0.0.1:5000
+```
+
+ou
+
+```
+http://localhost:5000
+```
+
+Logo em seguida, pressione enter para acessar o site.
 
 ## Estrutura do Projeto
 
