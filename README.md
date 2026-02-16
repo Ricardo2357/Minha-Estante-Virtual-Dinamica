@@ -16,11 +16,56 @@ O objetivo deste site é melhorar minhas habilidades em HTML5, CSS3 e Python (mi
 - CSS3 - Design.
 - Python - Desenvolvimento back-end.
 
-## Link de Acesso
+### Passos para Instalar
 
-Visite o site aqui:
+1. Baixe ou clone o projeto;
+2. Verifique se você possui Python 3 instalado no computador.
 
+### Como Instalar as Dependências
 
+1. Abra o Terminal, dentro da pasta do projeto;
+   
+2. Execute o seguinte comando para instalar o microframework Flask:
+
+   ```
+   pip install Flask
+   ```
+   
+## Como Acessar o Projeto no Navegador
+
+Após baixar ou clonar o projeto, siga os passos abaixo para acessar o site.
+
+1. Execute o seguinte comando no terminal:
+
+No Windows:
+
+```
+python app.py
+```
+
+No Linux/macOS:
+
+```
+python3 app.py
+```
+
+2. Após executar o comando, o terminal exibirá uma mensagem semelhante:
+
+```
+Running on http://127.0.0.1:5000/
+```
+
+Copie esse endereço e digite no navegador:
+
+```
+Running on http://127.0.0.1:5000/
+```
+
+ou
+
+```
+http://localhost:5000
+```
 
 ## Estrutura do Projeto
 
