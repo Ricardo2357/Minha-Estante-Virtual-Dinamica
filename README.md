@@ -1,6 +1,6 @@
 # Minha-Estante-Virtual-Dinamica
 
-Este projeto consiste em uma Estante Virtual Dinâmica desenvolvida como uma plataforma de avaliação literária, que permite ao usuário visualizar leituras e suas avaliações. Através de uma interface composta por cards, o visitante pode navegar por livros avaliados, acessar páginas de detalhes para cada obra e adicionar avaliações própias. 
+Este projeto consiste em uma Estante Virtual Dinâmica desenvolvida como uma plataforma de avaliação literária, que permite ao usuário visualizar leituras e suas avaliações. Através de uma interface composta por cards, o visitante pode navegar por livros avaliados, acessar páginas de detalhes para cada obra e adicionar avaliações próprias. 
 
 <p align="left">
   <img src="static/assets/images/preview-minha-estante-virtual.png" alt="Preview do Site Minha Estante Virtual" width="600">
