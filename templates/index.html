@@ -1,0 +1,24 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+    <section class="index-section">
+        {% for book in books %}
+            <div class="book-card">
+                <a href="{{ url_for('book_details', book_id=book.id) }}" aria-label="Ver Detalhes Sobre o Livro">
+                    <img class="book-card-img" src="{{ book.cover_url }}" alt="Capa do Livro {{ book.title }}'">
+                    <h2>{{ book.title }}</h2>
+                    <div class="rating">
+                        {% for i in range(5) %}
+                            {% if (i + 1) <= book.stars|int %}
+                                <span>★</span>
+                            {% else %}
+                                <span class="star-empty">★</span>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                </a>
+            </div>
+        {% endfor %}
+    </section> 
+{% endblock %}
+

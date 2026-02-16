@@ -1,0 +1,45 @@
+{% extends 'layout.html' %}
+
+{% block title %} {{ book.title }} - Minha Estante Virtual{% endblock %}
+
+{% block content %}
+    <section>
+        <div class="details-book-card">
+            <div class="back-link">
+                <a href="{{ url_for('index') }}" aria-label="Voltar a Página Principal">&larr; Voltar a Estante</a>
+            </div>
+            <div class="details-book-layout">
+                <div>
+                    <img class="img-details-book-card" src="{{ book.cover_url }}" alt="Capa do Livro {{ book.title }}">
+                </div>
+                <div>
+                    <div class="details-book">
+                        <h1>{{ book.title }}</h1> 
+                    </div>
+                    <div class="details-book">
+                        <p><strong>Autor:</strong> {{ book.writer }}</p>
+                    </div>   
+                    <div class="details-book">
+                        <p><strong>Termino da Leitura:</strong> {{ book.read_date }}</p>
+                    </div>   
+                    <div class="details-book">
+                        <p><strong>Review:</strong></p>
+                        <p>{{ book.review }}</p>
+                    </div>    
+                    <div class="details-book">
+                        <p><strong>Avaliação:</strong></p>
+                        <div class="details-rating">
+                            {% for i in range(5) %}
+                                {% if (i + 1) <= book.stars|int %}
+                                    <span>★</span>
+                                {% else %}
+                                    <span class="star-empty">★</span>
+                                {% endif %}
+                            {% endfor %}
+                        </div>
+                    </div> 
+                </div>              
+            </div>
+        </div>
+    </section>
+{% endblock %}
