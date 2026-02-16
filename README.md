@@ -35,7 +35,7 @@ O objetivo deste site é melhorar minhas habilidades em HTML5, CSS3 e Python (mi
 
 Após baixar ou clonar o projeto, siga os passos abaixo para acessar o site.
 
-1. Execute o seguinte comando no terminal:
+### Execute o Seguinte Comando no Terminal:
 
 No Windows:
 
@@ -49,22 +49,16 @@ No Linux/macOS:
 python3 app.py
 ```
 
-2. Após executar o comando, o terminal exibirá uma mensagem semelhante:
+### Após Executar o Comando, o Terminal Exibirá uma Mensagem Semelhante:
 
 ```
 Running on http://127.0.0.1:5000/
 ```
 
-Copie esse endereço e digite no navegador:
+### Copie esse endereço e digite no navegador:
 
 ```
 Running on http://127.0.0.1:5000/
-```
-
-ou
-
-```
-http://localhost:5000
 ```
 
 ## Estrutura do Projeto
