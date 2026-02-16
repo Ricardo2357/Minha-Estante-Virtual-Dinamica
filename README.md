@@ -35,8 +35,8 @@ Visite o site aqui:
 ├── pages/
 │   ├── add-book.html
 │   ├── book-details.html
-│   ├── details-a-historia-de-iqbal.png
-│   └── index.html
+│   ├── index.html
+│   └── layout.html
 ├── LICENSE
 ├── README.md
 ├── app.py
