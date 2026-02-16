@@ -49,17 +49,13 @@ No Linux/macOS:
 python3 app.py
 ```
 
-### Após Executar o Comando, o Terminal Exibirá uma Mensagem Semelhante:
+### O Terminal Exibirá a Seguinte Mensagem:
 
 ```
 Running on http://127.0.0.1:5000/
 ```
 
-### Copie esse endereço e digite no navegador:
-
-```
-Running on http://127.0.0.1:5000/
-```
+Copie esse endereço e digite no seu navegador.
 
 ## Estrutura do Projeto
 
