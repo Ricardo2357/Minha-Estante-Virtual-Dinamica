@@ -72,6 +72,7 @@ Logo em seguida, pressione enter para acessar o site.
 ## Estrutura do Projeto
 
 ```
+Mini-Estante-Virtual-Dinâmica/
 ├── static/
 │   └── assets/
 │       └── images/
